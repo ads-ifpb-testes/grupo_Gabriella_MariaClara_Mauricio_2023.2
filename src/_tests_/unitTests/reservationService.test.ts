@@ -1,9 +1,9 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
-import { prismaMock } from "./singleton"
-import { ReservationService } from "../service/reservationService"
-import * as validate from "../utils/reservationValidateZod"
+import { prismaMock } from "../singleton"
+import { ReservationService } from "../../service/reservationService"
+import * as validate from "../../utils/reservationValidateZod"
 import { ReservationPaymentStatus } from "@prisma/client"
-import { CheckReservationAvailability } from "../utils/checkReservationAvailability"
+import { CheckReservationAvailability } from "../../utils/checkReservationAvailability"
 
 
 

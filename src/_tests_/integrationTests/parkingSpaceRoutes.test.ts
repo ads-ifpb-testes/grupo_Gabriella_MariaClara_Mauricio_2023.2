@@ -1,8 +1,8 @@
 import request from "supertest"
 // import * as fs from "fs"
 
-import { prisma } from "../database/prisma"
-import app from "../app"
+import { prisma } from "../../database/prisma"
+import app from "../../app"
 import path from "path"
 
 describe("Vagas de estacionamento", () => {

@@ -1,6 +1,6 @@
 import request from "supertest"
-import { prisma } from "../database/prisma"
-import app from "../app"
+import { prisma } from "../../database/prisma"
+import app from "../../app"
 
 describe("Users", () => {
 	let token: string

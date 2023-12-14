@@ -1,8 +1,8 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 import { Readable } from "stream"
-import { prismaMock } from "./singleton"
-import { ParkingSpaceService } from "../service/parkingSpaceService"
-import * as validate from "../utils/parkingSpaceValidateZod"
+import { prismaMock } from "../singleton"
+import { ParkingSpaceService } from "../../service/parkingSpaceService"
+import * as validate from "../../utils/parkingSpaceValidateZod"
 import { ParkingSpaceType } from "@prisma/client"
 
 describe("Gerenciador de vagas de estacionamento", () => {

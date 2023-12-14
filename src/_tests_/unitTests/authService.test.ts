@@ -1,6 +1,6 @@
-import AuthService from "../service/authService"
-import { prismaMock } from "./singleton"
-import * as security from "../utils/security"
+import AuthService from "../../service/authService"
+import { prismaMock } from "../singleton"
+import * as security from "../../utils/security"
 import  jwt  from "jsonwebtoken"
 
 

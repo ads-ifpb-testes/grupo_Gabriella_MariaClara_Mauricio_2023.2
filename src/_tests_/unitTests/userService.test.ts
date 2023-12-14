@@ -1,7 +1,7 @@
-import { prismaMock } from "./singleton"
-import { UserService } from "../service/userService"
-import * as security from "../utils/security"
-import * as validate from "../utils/userValidateZod"
+import { prismaMock } from "../singleton"
+import { UserService } from "../../service/userService"
+import * as security from "../../utils/security"
+import * as validate from "../../utils/userValidateZod"
 import { ZodError } from "zod"
 
 
