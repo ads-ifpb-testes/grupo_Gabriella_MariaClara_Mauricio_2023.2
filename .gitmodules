@@ -1,0 +1,3 @@
+[submodule "testes_de_sistema"]
+	path = testes_de_sistema
+	url = https://github.com/maueici0/Testes-de-Sistema
